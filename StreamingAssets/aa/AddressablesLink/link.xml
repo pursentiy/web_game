@@ -12,6 +12,7 @@
     <type fullname="Popup.Universal.UniversalPopupMediator" preserve="all" />
     <type fullname="Popup.Universal.UniversalPopupView" preserve="all" />
     <type fullname="SettingsPopupMediator" preserve="all" />
+    <type fullname="Utilities.Disposable.ComponentDisposeProvider" preserve="all" />
     <type fullname="Common.Utilities.DecimalRange/FloatRange" preserve="nothing" serialized="true" />
     <type fullname="Popup.Universal.UniversalPopupButtonStylesDictionary" preserve="nothing" serialized="true" />
   </assembly>
