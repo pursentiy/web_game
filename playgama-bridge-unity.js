@@ -135,14 +135,14 @@ function initializeBridge() {
             bridge.platform.on('pause_state_changed', isPaused => sendMessageToUnity('OnPauseStateChanged', isPaused.toString()))
 
             let unityLoader = document.createElement('script')
-            unityLoader.src = 'Build/Build GitHub 9.loader.js'
+            unityLoader.src = 'Build/Build GitHub 10.loader.js'
             unityLoader.onload = () => {
                 createUnityInstance(
                     CANVAS,
                     {
-                        dataUrl: 'Build/Build GitHub 9.data.unityweb',
-                        frameworkUrl: 'Build/Build GitHub 9.framework.js.unityweb',
-                        codeUrl: 'Build/Build GitHub 9.wasm.unityweb',
+                        dataUrl: 'Build/Build GitHub 10.data.unityweb',
+                        frameworkUrl: 'Build/Build GitHub 10.framework.js.unityweb',
+                        codeUrl: 'Build/Build GitHub 10.wasm.unityweb',
                         streamingAssetsUrl: 'StreamingAssets',
                         companyName: 'DefaultCompany',
                         productName: 'MatchImages',
