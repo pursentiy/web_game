@@ -3,6 +3,7 @@
     <type fullname="Animations.ButtonScaleAnimation" preserve="all" />
     <type fullname="Common.Rewards.RewardAnimation" preserve="all" />
     <type fullname="Common.Widgets.ImageAlphaSetter" preserve="all" />
+    <type fullname="Common.Widgets.SafeZoneWidget" preserve="all" />
     <type fullname="Components.AdjustScaler" preserve="all" />
     <type fullname="Components.TmpDiacriticsAutoRemoverWidget" preserve="all" />
     <type fullname="Components.UI.CurrencyDisplayWidget" preserve="all" />
