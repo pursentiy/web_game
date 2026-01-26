@@ -7,15 +7,17 @@
     <type fullname="Components.AdjustScaler" preserve="all" />
     <type fullname="Components.TmpDiacriticsAutoRemoverWidget" preserve="all" />
     <type fullname="Components.UI.CurrencyDisplayWidget" preserve="all" />
-    <type fullname="Popup.CompleteLevelInfoPopup.CompleteLevelInfoPopupMediator" preserve="all" />
-    <type fullname="Popup.CompleteLevelInfoPopup.CompleteLevelInfoPopupView" preserve="all" />
-    <type fullname="Popup.Settings.SettingsPopupView" preserve="all" />
-    <type fullname="Popup.Universal.UniversalPopupMediator" preserve="all" />
-    <type fullname="Popup.Universal.UniversalPopupView" preserve="all" />
-    <type fullname="SettingsPopupMediator" preserve="all" />
+    <type fullname="UI.Popups.CompleteLevelInfoPopup.CompleteLevelInfoPopupMediator" preserve="all" />
+    <type fullname="UI.Popups.CompleteLevelInfoPopup.CompleteLevelInfoPopupView" preserve="all" />
+    <type fullname="UI.Popups.MessagePopup.MessagePopupMediator" preserve="all" />
+    <type fullname="UI.Popups.MessagePopup.MessagePopupView" preserve="all" />
+    <type fullname="UI.Popups.SettingsPopup.SettingsPopupMediator" preserve="all" />
+    <type fullname="UI.Popups.SettingsPopup.SettingsPopupView" preserve="all" />
+    <type fullname="UI.Popups.UniversalPopup.UniversalPopupMediator" preserve="all" />
+    <type fullname="UI.Popups.UniversalPopup.UniversalPopupView" preserve="all" />
     <type fullname="Utilities.Disposable.ComponentDisposeProvider" preserve="all" />
     <type fullname="Common.Utilities.DecimalRange/FloatRange" preserve="nothing" serialized="true" />
-    <type fullname="Popup.Universal.UniversalPopupButtonStylesDictionary" preserve="nothing" serialized="true" />
+    <type fullname="UI.Popups.UniversalPopup.UniversalPopupButtonStylesDictionary" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Coffee.UIExtensions.UIParticle" preserve="all" />
@@ -83,6 +85,7 @@
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
