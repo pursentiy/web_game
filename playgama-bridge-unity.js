@@ -135,14 +135,14 @@ function initializeBridge() {
             bridge.platform.on('pause_state_changed', isPaused => sendMessageToUnity('OnPauseStateChanged', isPaused.toString()))
 
             let unityLoader = document.createElement('script')
-            unityLoader.src = 'Build/Build Prod GB 6.loader.js'
+            unityLoader.src = 'Build/Build Prod GB 12.loader.js'
             unityLoader.onload = () => {
                 createUnityInstance(
                     CANVAS,
                     {
-                        dataUrl: 'Build/Build Prod GB 6.data.unityweb',
-                        frameworkUrl: 'Build/Build Prod GB 6.framework.js.unityweb',
-                        codeUrl: 'Build/Build Prod GB 6.wasm.unityweb',
+                        dataUrl: 'Build/Build Prod GB 12.data.unityweb',
+                        frameworkUrl: 'Build/Build Prod GB 12.framework.js.unityweb',
+                        codeUrl: 'Build/Build Prod GB 12.wasm.unityweb',
                         streamingAssetsUrl: 'StreamingAssets',
                         companyName: 'Vopris.inc',
                         productName: 'Magic Puzzles',
