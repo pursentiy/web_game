@@ -12,7 +12,6 @@
     <type fullname="Components.AdjustScaler" preserve="all" />
     <type fullname="Components.TmpDiacriticsAutoRemoverWidget" preserve="all" />
     <type fullname="Components.UI.CurrencyDisplayWidget" preserve="all" />
-    <type fullname="Level.Hud.LevelHudScrollHandler" preserve="all" />
     <type fullname="ThirdParty.SuperScrollView.Scripts.GridView.LoopGridView" preserve="all" />
     <type fullname="ThirdParty.SuperScrollView.Scripts.GridView.LoopGridViewItem" preserve="all" />
     <type fullname="UI.Popups.CompleteLevelInfoPopup.CompleteLevelInfoPopupMediator" preserve="all" />
@@ -96,6 +95,7 @@
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
